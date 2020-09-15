@@ -1,5 +1,3 @@
-/* jshint esnext:true */
-
 class Alien{
   constructor(weapons, ranks){
     this.weapons = weapons || ['Plasma Pistol'];
@@ -23,7 +21,6 @@ class Alien{
 };
 
 var alien = new Alien(['Plasma Pistol', 'Plasma Rifle']);
-// var alien = new Alien(['Rank: ']);
 
 Alien.prototype.addWeapon = function(weapon){
   this.weapons.push(weapon);
